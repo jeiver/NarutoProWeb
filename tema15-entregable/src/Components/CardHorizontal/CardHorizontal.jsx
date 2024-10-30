@@ -14,6 +14,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import './CardHorizontal.css'
 
 const CardHorizontal = styled((props) => {
   const { expand, ...other } = props;
@@ -47,7 +48,7 @@ export default function RecipeReviewCard({hola, birthdate,img,descripcion}) {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 640 }} className='CardClass'>
       <CardMedia
         component="img"
         height="194"

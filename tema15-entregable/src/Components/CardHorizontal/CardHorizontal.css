@@ -1,0 +1,8 @@
+.CardClass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 150, 108);
+    color: white;
+    padding-top: 30px;
+}
