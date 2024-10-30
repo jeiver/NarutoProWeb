@@ -2,6 +2,7 @@ import React from 'react';
 import "./Header.css";
 
 //import NavBar from '../NavBar/NavBar';
+import CardHorizontal from '../CardHorizontal/CardHorizontal';
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
         <h1>Naruto</h1>
         <p>- Información -</p>
       </div>
+       {/* <CardHorizontal hola={"Titulazo"}/>  */}
       {/* <NavBar /> */}
     </header>
   )
