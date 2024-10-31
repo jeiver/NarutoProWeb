@@ -4,6 +4,7 @@
 }
 
 header{
+    justify-content:space-around;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,4 +15,8 @@ header{
 #nombreid{
     
     padding: 20px;
+}
+.NombreLink{
+    text-decoration: none;
+ color: white;
 }
